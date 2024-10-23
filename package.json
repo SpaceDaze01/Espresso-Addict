@@ -6,7 +6,8 @@
   "description": "A small text adventure - written in vanilla JS",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "make-steps": "node makeSteps.cjs"
   },
   "keywords": [],
   "license": "ISC",
@@ -17,7 +18,6 @@
   },
   "devDependencies": {
     "chai": "^5.1.1",
-    "cucumber-html-reporter": "^7.2.0",
-    "make-steps": "node makeSteps.cjs"
+    "cucumber-html-reporter": "^7.2.0"
   }
 }
