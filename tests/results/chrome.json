@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 973909000
+              "duration": 955199400
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14697399
+              "duration": 2220700
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11106500
+              "duration": 6468198
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14651599
+              "duration": 7059700
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 335647899
+              "duration": 563966899
             }
           }
         ],
@@ -91,7 +91,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 670599,
+              "duration": 781899,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -139,7 +139,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 867499,
+              "duration": 630200,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -170,7 +170,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 716199,
+              "duration": 800400,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -218,7 +218,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 805499,
+              "duration": 921400,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -249,7 +249,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 631600,
+              "duration": 695299,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -297,7 +297,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 583000,
+              "duration": 787200,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -328,7 +328,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 387099,
+              "duration": 395299,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -389,7 +389,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 441800,
+              "duration": 360599,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -420,7 +420,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 398300,
+              "duration": 383800,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -468,7 +468,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 854400,
+              "duration": 637799,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -499,7 +499,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 558300,
+              "duration": 449200,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -560,7 +560,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 647499,
+              "duration": 439399,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -591,7 +591,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 654899,
+              "duration": 245300,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -639,7 +639,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 633199,
+              "duration": 466599,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -670,7 +670,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 601799,
+              "duration": 444899,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -718,7 +718,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 458500,
+              "duration": 655799,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -749,7 +749,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 648500,
+              "duration": 574399,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -836,7 +836,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 689199,
+              "duration": 435299,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -856,7 +856,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 247299,
+              "duration": 303399,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -956,7 +956,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 427499,
+              "duration": 525299,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -976,7 +976,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 288399,
+              "duration": 403600,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -1063,7 +1063,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 340900,
+              "duration": 376000,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -1083,7 +1083,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 212700,
+              "duration": 224600,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -1209,7 +1209,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 2888300,
+              "duration": 695900,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -1229,7 +1229,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 258299,
+              "duration": 262399,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -1329,7 +1329,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 1615299,
+              "duration": 405100,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -1349,7 +1349,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 509300,
+              "duration": 378200,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -1436,7 +1436,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 852300,
+              "duration": 319900,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -1456,7 +1456,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 314800,
+              "duration": 405099,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -1582,7 +1582,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 499099,
+              "duration": 791400,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -1602,7 +1602,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 291400,
+              "duration": 263199,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -1702,7 +1702,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 257999,
+              "duration": 413700,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -1722,7 +1722,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 379099,
+              "duration": 181900,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -1809,7 +1809,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 252700,
+              "duration": 380599,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -1829,7 +1829,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 213900,
+              "duration": 195200,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -1916,7 +1916,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 684999,
+              "duration": 540500,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -1936,7 +1936,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 14475300,
+              "duration": 353700,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -2023,7 +2023,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 284699,
+              "duration": 295200,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
@@ -2043,7 +2043,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 262200,
+              "duration": 210799,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
@@ -2156,7 +2156,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 298399,
+              "duration": 361999,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           }
