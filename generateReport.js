@@ -3,9 +3,9 @@ import open from 'open';
 
 const options = {
   theme: 'bootstrap',
-  jsonFile: `./tests/results/index.json`,
-  output: `./tests/results/index.html`
+  jsonFile: `./tests/results/chrome.json`,
+  output: `./tests/results/chrome.html`
 };
 
 generator.generate(options);
-await open('./tests/results/index.html');
+await open('./tests/results/chrome.html');

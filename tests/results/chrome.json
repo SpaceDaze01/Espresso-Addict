@@ -1,0 +1,2175 @@
+[
+  {
+    "description": "    Som användare vill jag kunna trycka på knappen \"Enter the cafe\" för att spelaren ska kunna gå in på cafet och få tre nya alternativ.",
+    "elements": [
+      {
+        "description": "",
+        "id": "trycka-på-enter-the-cafe;knappen-enter-the-cafe",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "knappen Enter the cafe",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 684530299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "att användaren är inne på hemsidan \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Enter_the_cafe_btn.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5308099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "användaren trycker på knappen \"Enter the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Enter_the_cafe_btn.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2321699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "användaren ska få tre nya knapp alternativ",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Enter_the_cafe_btn.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16093299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 143503699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "trycka-på-enter-the-cafe",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Trycka på Enter the cafe",
+    "tags": [],
+    "uri": "tests\\features\\Enter_the_cafe_btn.feature"
+  },
+  {
+    "description": "    Som användare ska man kunna spela i full screen läge.",
+    "elements": [
+      {
+        "description": "",
+        "id": "full-screen-läge;full-screen-läge",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Full screen läge",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 767499,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "att spelaren är på spelets första sida \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "användaren trycker på \"Full screen\" ikonen",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "ska användaren kunna spela i full screen läge",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 599999,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "full-screen-läge",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Full screen läge",
+    "tags": [],
+    "uri": "tests\\features\\Full_screen_mode.feature"
+  },
+  {
+    "description": "    Som användare ska man kunna se status för hälsan i spelet och hur den förändras. ",
+    "elements": [
+      {
+        "description": "",
+        "id": "health-status;health-status-och-förändringar",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Health status och förändringar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 720400,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "att användaren är på spel webbsidan \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Health_status.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "användaren integrerar genom att trycka på olika knappar",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Health_status.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "minskar spelarens hälsotillstånd",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Health_status.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 463899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "health-status",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Health status",
+    "tags": [],
+    "uri": "tests\\features\\Health_status.feature"
+  },
+  {
+    "description": "    Som användare ska man kunna trycka på Help knappen för att få information och regler om spelet.",
+    "elements": [
+      {
+        "description": "",
+        "id": "help-knappen;help-knappen",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Help knappen",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 868199,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "att användaren är på första sidan \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Help_btn.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "användaren trycker på \"Help\" knappen",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Help_btn.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "kommer det upp en text med information och regler om spelet",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Help_btn.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 553800,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "help-knappen",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Help knappen",
+    "tags": [],
+    "uri": "tests\\features\\Help_btn.feature"
+  },
+  {
+    "description": "    Som användare ska man kunna se hur mycket pengar man har i spelet efter interaktion.",
+    "elements": [
+      {
+        "description": "",
+        "id": "money-status;money-status",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Money status",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 328899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "att användaren är på spelets hemsida \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Money_status.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "användaren trycker på \"Enter the cafe\" knappen",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Help_btn.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "trycker på \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Money_status.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "ska användaren se hur mycket pengar hen har kvar i spelet",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Money_status.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 432399,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "money-status",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Money status",
+    "tags": [],
+    "uri": "tests\\features\\Money_status.feature"
+  },
+  {
+    "description": "    Som användare ska jag kunna trycka på Wait knappen för att integrera med spelet.",
+    "elements": [
+      {
+        "description": "",
+        "id": "wait-knappen;wait-knappen",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Wait knappen",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 312199,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "att användaren är spel sidan \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Wait_btn.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "användaren trycker på \"Wait\" knappen",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Help_btn.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "ska användaren kunna integrera med spelet med hjälp av olika direktiv som dyker upp",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Wait_btn.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 490499,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "wait-knappen",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Wait knappen",
+    "tags": [],
+    "uri": "tests\\features\\Wait_btn.feature"
+  },
+  {
+    "description": "    Som användare ska man kunna lägga in föremål i hipster bag och få en dubbel espresso om man hjälper baristan.",
+    "elements": [
+      {
+        "description": "",
+        "id": "dubbel-expresso-och-hipster-bag;hipster-bag-för-föremål",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Hipster bag för föremål",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 410699,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "att användaren är på webbsidan \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\dubbleEspresso_hipster_bag.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "användaren hjälper baristan med att exportera en öl",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\dubbleEspresso_hipster_bag.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "ska användaren kunna lägga in den i sin hipster bag",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\dubbleEspresso_hipster_bag.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "användaren ska få två expressos som belöning",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\dubbleEspresso_hipster_bag.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 428100,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "dubbel-expresso-och-hipster-bag",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dubbel expresso och hipster bag",
+    "tags": [],
+    "uri": "tests\\features\\dubbleEspresso_hipster_bag.feature"
+  },
+  {
+    "description": "    Som användare ska man kunna förlora spelet.",
+    "elements": [
+      {
+        "description": "",
+        "id": "game-over;förlora-spelet",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Förlora spelet",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 278700,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "att spelaren är på spelets sida \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\game_over.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "användaren klickar på \"Wait\" knappen 7 gånger",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\game_over.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "spelet avslutas och användaren har förlorat",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\game_over.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 367500,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "game-over",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Game over",
+    "tags": [],
+    "uri": "tests\\features\\game_over.feature"
+  },
+  {
+    "description": "    Som användare ska man kunna få olika knapp alternativ vart jag vill förflytta mig i spelet.",
+    "elements": [
+      {
+        "description": "",
+        "id": "riktning-i-spelet;riktnings-förslag",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Riktnings förslag",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 485900,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "att användaren är på start sidan \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\riktning_i_spelet.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "användaren ska göra ett val i spelet",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\riktning_i_spelet.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "ska användaren kunna få upp olika knapp alternativ vart hen vill gå",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\riktning_i_spelet.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 330299,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "riktning-i-spelet",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Riktning i spelet",
+    "tags": [],
+    "uri": "tests\\features\\riktning_i_spelet.feature"
+  },
+  {
+    "description": "  As a user I want to win the game by obtaining 5 cups of espresso (based on my empirical knowledge about how to win the game).",
+    "elements": [
+      {
+        "description": "",
+        "id": "win-the-game;at-the-right-place-with-the-right-starting-values",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "At the right place with the right starting values",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 251600,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the value of my \"Health\" should be 50",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the value of my \"Money\" should be 10",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the value of my \"Espressos\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "my hipster bag should contain \"nothing cool\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should be at the location \"outside the Cloud Forest Cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 410899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-navigate-from-outside-the-cloud-forest-cafe-to-a-crowded-friendly-bar",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "I navigate from outside the Cloud Forest Cafe to a crowded friendly bar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 213899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "that I make the choice to \"Go north\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "that I make the choice to \"Go east\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the value of my \"Health\" should be 50",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the value of my \"Money\" should be 10",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the value of my \"Espressos\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "my hipster bag should contain \"nothing cool\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should be at the location \"a crowded bar where everyone is friendly\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 383800,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-stay-at-the-crowded-friendly-bar-and-wait-for-the-bartender-to-give-me-a-beer",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "I stay at the crowded friendly bar and wait for the bartender to give me a beer",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 208099,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "that I am at the location \"a crowded bar where everyone is friendly\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I wait for the event \"The bartender offers you a can of beer for free\" to take place",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the value of my \"Health\" should be \"less than before\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the value of my \"Money\" should be 10",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the value of my \"Espressos\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "my hipster bag should contain \"a can of beer\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 354699,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-navigate-from-outside-the-crowded-friendly-bar-to-the-guitarist-and-the-sax-player",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "I navigate from outside the crowded friendly bar to the guitarist and the sax player",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 183500,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "that I make the choice to \"Go west\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "that I make the choice to \"Go south\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "that I make the choice to \"Go south\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "that I make the choice to \"Go west\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the value of my \"Health\" should be \"unchanged\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "the value of my \"Money\" should be 10",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the value of my \"Espressos\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "my hipster bag should contain \"a can of beer\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I should be at the location \"A guitarist and a sax player\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 272899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-stay-with-guitarist-and-the-sax-player",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "I stay with guitarist and the sax player",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 189499,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "that I am at the location \"A guitarist and a sax player\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I wait for the event \"why don't come on up and jam with us?\" to take place",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the value of my \"Health\" should be \"less than before\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "the value of my \"Money\" should be 10",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "the value of my \"Espressos\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "my hipster bag should contain \"a can of beer\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I should be given the new choice \"Jam with the band\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 298699,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-choose-to-jam-with-the-guitarist-and-the-sax-player",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "I choose to jam with the guitarist and the sax player",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 228099,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "that I am at the location \"A guitarist and a sax player\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "that I make the choice to \"Jam with the band\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "the value of my \"Health\" should be \"unchanged\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "the value of my \"Money\" should be 15",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "the value of my \"Espressos\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "my hipster bag should contain \"a can of beer\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 201399,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-navigate-from-the-guitarist-and-the-sax-player-to-inside-the-cloud-forest-cafe",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "I navigate from the guitarist and the sax player to inside the Cloud Forest Cafe",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 311699,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "that I am at the location \"A guitarist and a sax player\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "that I make the choice to \"Go east\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "that I make the choice to \"Go north\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "that I make the choice to \"Enter the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "the value of my \"Health\" should be \"unchanged\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "the value of my \"Money\" should be 15",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "the value of my \"Espressos\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "my hipster bag should contain \"a can of beer\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I should be at the location \"in the Cloud Forest Cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 465299,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-stay-at-the-cloud-forest-cafe-and-wait-for-the-barista-to-call-a-friend",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "I stay at the Cloud Forest Cafe and wait for the barista to call a friend",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 229899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 69,
+            "name": "that I am at the location \"in the Cloud Forest Cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I wait for the event \"The barista is in a dark corner phoning a friend\" to take place",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "the value of my \"Health\" should be \"less than before\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "the value of my \"Money\" should be 15",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "the value of my \"Espressos\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "my hipster bag should contain \"a can of beer\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "I should be given the new choice \"Give beer to barista\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 194500,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-give-the-barista-my-beer",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "I give the barista my beer",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 286099,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 78,
+            "name": "that I am at the location \"in the Cloud Forest Cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "that I make the choice to \"Give beer to barista\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "the value of my \"Health\" should be \"unchanged\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "the value of my \"Money\" should be 15",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "the value of my \"Espressos\" should be 2",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "my hipster bag should contain \"nothing cool\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 176100,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-buy-the-third-espresso-of-the-day",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "I buy the third espresso of the day",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 105599,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 86,
+            "name": "that I am at the location \"in the Cloud Forest Cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "that I make the choice to \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the value of my \"Health\" should be \"unchanged\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "the value of my \"Money\" should be 10",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "the value of my \"Espressos\" should be 3",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "my hipster bag should contain \"nothing cool\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 184400,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-buy-the-fourth-espresso-of-the-day",
+        "keyword": "Scenario",
+        "line": 93,
+        "name": "I buy the fourth espresso of the day",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 150900,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 94,
+            "name": "that I am at the location \"in the Cloud Forest Cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 95,
+            "name": "that I make the choice to \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 96,
+            "name": "the value of my \"Health\" should be \"unchanged\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "the value of my \"Money\" should be 5",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "the value of my \"Espressos\" should be 4",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "my hipster bag should contain \"nothing cool\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 247899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "win-the-game;i-buy-the-fifth-espresso-of-the-day",
+        "keyword": "Scenario",
+        "line": 101,
+        "name": "I buy the fifth espresso of the day",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 181199,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 102,
+            "name": "that I am at the location \"in the Cloud Forest Cafe\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "that I make the choice to \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "the value of my \"Health\" should be \"unchanged\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "the value of my \"Money\" should be 0",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "the value of my \"Espressos\" should be 5",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "my hipster bag should contain \"nothing cool\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "I should be at the location \"full of caffeine\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "I should be given the new choice \"Play again\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 204699,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:775:9\n    at Object.thenFinally [as finally] (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "win-the-game",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Win the game",
+    "tags": [],
+    "uri": "tests\\features\\win_the_game.feature"
+  }
+]
