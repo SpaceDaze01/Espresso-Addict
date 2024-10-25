@@ -3,7 +3,5 @@
 
 
 # att göra
- Lägg till Github actions
- Gör så att make-steps funkar 
- Skriv om spelets logik 
+ Lägg till Github actions 
  Tester
