@@ -28,13 +28,29 @@ Then('my hipster bag should contain {string}', async function (expectedBagConten
   expect(bagContent).to.equal(expectedBagContent);
 });
 
-Then('I should be at the location {string}', async function (a) {
-  // TODO: implement step
+Then('I should be at the location {string}', async function (outsideCafeImage) {
+ //FIXA
+  // get the element with the image of the cafe
+  let element = await this.get('.big-image img');
+
+  // get the src attribute of the image
+  let ImageCafe = (await element.getAttribute('src'));
+  expect(ImageCafe).to.equal(outsideCafeImage);
 });
 
-Given('that I make the choice to {string}', async function (a) {
-  // TODO: implement step
+Given('that I make the choice to {string}', async function (GoNorth) {
+  // Select the button with specific text
+  let buttonSelector = 'menu[class="choices"]'; // Adjust this if necessary
+  
+  let element = await this.get(buttonSelector);
+
+  // Get the text of the button
+  let northChoice = (await element.getText()).trim();
+  
+  // Check if the text matches the expected choice
+  expect(northChoice).to.equal(GoNorth);
 });
+
 
 Given('that I am at the location {string}', async function (a) {
   // TODO: implement step

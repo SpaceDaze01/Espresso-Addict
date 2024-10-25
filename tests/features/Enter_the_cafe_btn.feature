@@ -6,4 +6,4 @@ Feature: Enter the cafe
     Scenario: Button to enter the cafe
         Given that the user on the web page "http://localhost:3000"
         When the user clicks on the button "Enter the cafe"
-        Then the user should get tree new aternatives to choose from
+        Then the user should get two new aternatives to choose from: "Exit the cafe" and "Buy an espresso"
