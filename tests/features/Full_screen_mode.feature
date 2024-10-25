@@ -1,9 +1,9 @@
-Feature: Full screen läge
+Feature: Full screen mode
 
-    Som användare ska man kunna spela i full screen läge.
+    As a user I should be able to play in full screen mode.
 
 
-    Scenario: Full screen läge
-    Given att spelaren är på spelets första sida "http://localhost:3000"
-    When användaren trycker på "Full screen" ikonen
-    Then ska användaren kunna spela i full screen läge
+    Scenario: Full screen mode
+        Given that the user is on the game page "http://localhost:3000"
+        When the user clicks on the "Full screen" icon
+        Then the user should be able to play in full screen mode

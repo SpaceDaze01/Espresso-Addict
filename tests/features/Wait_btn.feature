@@ -1,9 +1,9 @@
-Feature: Wait knappen
+Feature: Wait button
 
-    Som användare ska jag kunna trycka på Wait knappen för att integrera med spelet.
+    As a user I should be able to click on the wait button to interact with the game.
 
 
-    Scenario: Wait knappen 
-    Given att användaren är spel sidan "http://localhost:3000"
-    When användaren trycker på "Wait" knappen
-    Then ska användaren kunna integrera med spelet med hjälp av olika direktiv som dyker upp
+    Scenario: Wait button
+        Given that the user is on the page "http://localhost:3000"
+        When the user clicks on the "Wait" button
+        Then the user should be able to interact with the game by various directives that appear on the screen

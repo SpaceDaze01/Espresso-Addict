@@ -1,9 +1,9 @@
-Feature: Help knappen
+Feature: Help button
 
-    Som användare ska man kunna trycka på Help knappen för att få information och regler om spelet.
+    As a user I should be able to click on the help button to get information and rules about the game.
 
 
-    Scenario: Help knappen
-    Given att användaren är på första sidan "http://localhost:3000"
-    When användaren trycker på "Help" knappen
-    Then kommer det upp en text med information och regler om spelet
+    Scenario: Help button
+        Given that the user is on the game site "http://localhost:3000"
+        When the user clicks on the "Help" button
+        Then it should display a text with information and rules about the game

@@ -1,9 +1,9 @@
-Feature: Game over 
+Feature: Game over
 
-    Som användare ska man kunna förlora spelet.
+    As a user I should be able to lose the game.
 
 
-    Scenario: Förlora spelet
-    Given att spelaren är på spelets sida "http://localhost:3000"
-    When användaren klickar på "Wait" knappen 7 gånger
-    Then spelet avslutas och användaren har förlorat 
+    Scenario: Lose the game
+        Given that the user is on the main page "http://localhost:3000"
+        When the user clicks on the "Wait" buttom 7 times
+        Then the game should end and the user should see a game over screen

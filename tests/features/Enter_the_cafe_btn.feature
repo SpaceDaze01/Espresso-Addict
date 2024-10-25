@@ -1,9 +1,9 @@
-Feature: Trycka på Enter the cafe
+Feature: Enter the cafe
 
-    Som användare vill jag kunna trycka på knappen "Enter the cafe" för att spelaren ska kunna gå in på cafet och få tre nya alternativ.
+    As a user I want to be able to press the button "Enter the cafe" and get tree new alternatives to choose from.
 
 
-    Scenario: knappen Enter the cafe
-    Given att användaren är inne på hemsidan "http://localhost:3000"
-    When användaren trycker på knappen "Enter the cafe"
-    Then användaren ska få tre nya knapp alternativ
+    Scenario: Button to enter the cafe
+        Given that the user on the web page "http://localhost:3000"
+        When the user clicks on the button "Enter the cafe"
+        Then the user should get tree new aternatives to choose from

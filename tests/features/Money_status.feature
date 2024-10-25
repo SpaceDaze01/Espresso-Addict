@@ -1,9 +1,9 @@
 Feature: Money status
 
-    Som användare ska man kunna se hur mycket pengar man har i spelet efter interaktion.
+    As a user I should be able to see how much money i have in the game after an interaction.
 
     Scenario: Money status
-    Given att användaren är på spelets hemsida "http://localhost:3000"
-    When användaren trycker på "Enter the cafe" knappen
-    And trycker på "Buy an espresso"
-    Then ska användaren se hur mycket pengar hen har kvar i spelet
+        Given that the user is on the site "http://localhost:3000"
+        When the user clicks on the button "Enter the cafe"
+        And clicks on "Buy an espresso"
+        Then the user should be able to see money status after the interaction
