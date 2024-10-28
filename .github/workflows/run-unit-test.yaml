@@ -45,6 +45,13 @@ jobs:
       # if the project has a npm run build command
       # then runs (not needed right now but keep)
     - run: npm run build --if-present
+      # start the web server (without hanging the terminal)
+      # note nohup does NOT work with the npm command,
+      # so run using the node command instead
+    - run: nohup node index.js &
       # run whatever is specified in package.json
       # for the script test
     - run: npm test
+      # make sure to run with colored output
+      env:
+        FORCE_COLOR: 2
