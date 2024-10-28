@@ -2,7 +2,7 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { By, until, Key } from 'selenium-webdriver';
 import { expect } from 'chai';
-
+//KLAR
 Given('that the user on the web page {string}', async function(url){
   await this.driver.get(url);
   await this.getByXPathWait('/descendant::*[@class="health"]//*[contains(text(), "50")]'); //kan användas till andra tester

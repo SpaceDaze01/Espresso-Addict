@@ -7,10 +7,32 @@ Given('that the user is on the site {string}', async function(url){
   await this.driver.get(url);
 });
 
-When('clicks on {string}', async function(a){
-  // TODO: implement step
+When('When the user clicks on the button {string}', async function (enterCafeBtn) {
+  let enterCafeButton = await this.driver.findElements(By.css('ul li'));
+  for (let button of enterCafeButton) {
+    if (await button.getText() === enterCafeBtn) {
+      await button.click();
+      break;
+    }
+  }
 });
 
-Then('the user should be able to see money status after the interaction', async function(){
-  // TODO: implement step
+When('clicks on {string}', async function(buyEspressoBtn){
+  let buyEspressoButton = await this.driver.findElements(By.css('ul li'));
+  for (let button of buyEspressoButton) {
+    if (await button.getText() === buyEspressoBtn) {
+      await button.click();
+      break;
+    }
+  }
+});
+
+Then('the user should be able to see {string} status after the interaction go down to {float}', async function(statusTypeMoney, expectedValueMoney){
+  //FIXA
+  // Get the current value directly
+  const cssSelector = `.${statusTypeMoney.toLowerCase()} .progress`;
+  const currentValue = Number(await this.driver.findElement({ css: cssSelector }).getText());
+
+  // Compare the current value with the expected value
+  expect(currentValue).to.equal(expectedValueMoney);
 });
