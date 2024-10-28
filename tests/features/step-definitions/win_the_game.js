@@ -1,5 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from 'chai';
+import { navigateTo, getWhereIAm, getMenuChoiceElement } from './helpers.js'
 // import { By, until, Key } from 'selenium-webdriver';
 
 Given('that I have started the game by navigating to {string}', async function (url) {
