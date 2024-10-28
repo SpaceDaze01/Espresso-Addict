@@ -22,6 +22,6 @@ Then('the {string} condition should go down to {float}', async function (statusT
   const cssSelector = `.${statusType.toLowerCase()} .progress`;
   const currentValue = Number(await this.driver.findElement({ css: cssSelector }).getText());
 
-  // Jämför det aktuella värdet med det förväntade
+  // Compare the current value with the expected value
   expect(currentValue).to.equal(expectedValue);
 });
