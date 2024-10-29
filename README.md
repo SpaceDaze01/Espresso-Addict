@@ -27,3 +27,4 @@
  We didn't have helpers.js at the beginning of the workshop, it made writing the tests much more difficult.
  We missed that we needed two terminals open at the same time.
  It took time to find the right files/folders for our program due to changes that had been added later on.
+ Some of our tests passed initially but have stopped working when vi ran them again,(Health status och Money status).

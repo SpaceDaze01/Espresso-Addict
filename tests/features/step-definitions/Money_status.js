@@ -3,7 +3,7 @@ import { Given, When, Then } from '@cucumber/cucumber';
 import { By, until, Key } from 'selenium-webdriver';
 import { expect } from 'chai';
 
-Given('that the user is on the site {string}', async function(url){
+Given('that the user is on the site {string}', async function (url) {
   await this.driver.get(url);
 });
 
@@ -17,7 +17,7 @@ When('When the user clicks on the button {string}', async function (enterCafeBtn
   }
 });
 
-When('clicks on {string}', async function(buyEspressoBtn){
+When('clicks on {string}', async function (buyEspressoBtn) {
   let buyEspressoButton = await this.driver.findElements(By.css('ul li'));
   for (let button of buyEspressoButton) {
     if (await button.getText() === buyEspressoBtn) {
@@ -27,12 +27,12 @@ When('clicks on {string}', async function(buyEspressoBtn){
   }
 });
 
-Then('the user should be able to see {string} status after the interaction go down to {float}', async function(statusTypeMoney, expectedValueMoney){
-  //FIXA
-  // Get the current value directly
+Then('the user should be able to see {string} status after the interaction go down to {float}', async function (statusTypeMoney, expectedValueMoney) {
   const cssSelector = `.${statusTypeMoney.toLowerCase()} .progress`;
-  const currentValue = Number(await this.driver.findElement({ css: cssSelector }).getText());
 
-  // Compare the current value with the expected value
-  expect(currentValue).to.equal(expectedValueMoney);
+  await this.driver.wait(until.elementLocated(By.css(cssSelector)), 5000);
+  const element = await this.driver.findElement(By.css(cssSelector));
+  const currentValue = await element.getText();
+
+  expect(Number(currentValue)).to.equal(expectedValueMoney);
 });
