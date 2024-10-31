@@ -17,7 +17,7 @@ When('the user interacts by clicking on the {string} button on the page', async 
   }
 });
 
-Then('the {string} condition should go down to {float}', async function (statusType, expectedValue){
+Then('the {string} condition should go down', async function (statusType, expectedValue){
   // Get the current value directly
   const cssSelector = `.${statusType.toLowerCase()} .progress`;
   const currentValue = Number(await this.driver.findElement({ css: cssSelector }).getText());

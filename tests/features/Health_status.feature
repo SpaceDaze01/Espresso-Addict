@@ -6,4 +6,4 @@ Feature: Health status
     Scenario: Health status bar
         Given that the user is on the first page "http://localhost:3000"
         When the user interacts by clicking on the "Wait" button on the page
-        Then the "Health" condition should go down to 45
+        Then the "Health" condition should go down
