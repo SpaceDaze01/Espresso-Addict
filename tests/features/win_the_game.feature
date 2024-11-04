@@ -55,7 +55,6 @@ Feature: Win the game
   Scenario: I choose to jam with the guitarist and the sax player
     Given that my position is "at the concert"
     And that I know my current health
-    And that I make the choice to "Jam with the band"
     Then my health should be "unchanged"
     And the value of my "Money" should be 15
     And the value of my "Espressos" should be 0
@@ -82,12 +81,11 @@ Feature: Win the game
     And the value of my "Money" should be 15
     And the value of my "Espressos" should be 0
     And my hipster bag should contain "a can of beer"
-    And I should be given the new choice "Give beer to barista"
 
   Scenario: I give the barista my beer
     Given that my position is "inside the cafe"
     And that I know my current health
-    And that I make the choice to "Give beer to barista"
+    And I should be given the new choice "Give beer to barista"
     Then my health should be "20 more than before"
     And the value of my "Money" should be 15
     And the value of my "Espressos" should be 2

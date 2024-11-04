@@ -21,6 +21,10 @@ class CustomWorld {
     return await this.driver.findElement(By.css(cssSelector));
   }
 
+  async getText(element) {
+    return await element.getText();
+  }
+
   async getMany(cssSelector) {
     return await this.driver.findElements(By.css(cssSelector));
   }
