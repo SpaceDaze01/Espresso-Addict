@@ -46,7 +46,7 @@ jobs:
       # then runs (not needed right now but keep)
     - run: npm run build --if-present
       
-    
+    - run: nohup node index.js &
     
       # run whatever is specified in package.json
       # for the script test
