@@ -1,6 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from 'chai';
-import { navigateTo, getWhereIAm, getMenuChoiceElement } from './helpers.js'
+import { navigateTo, getWhereIAm, getMenuChoiceElement, checkIfDescriptionContainsString, getAllCurrentMenuChoices } from './helpers.js'
 // import { By, until, Key } from 'selenium-webdriver';
 
 Given('that I have started the game by navigating to {string}', async function (url) {
@@ -34,34 +34,42 @@ Then('my hipster bag should contain {string}', async function (expectedBagConten
   expect(bagContent).to.equal(expectedBagContent);
 });
 
-Given('that my position is {string}', async function (a) {
-  // TODO: implement step
+Given('that my position is {string}', async function (position) {
+  expect(await getWhereIAm(this)).to.equal(position);
 });
 
-Given('that I make the choice to {string}', async function (a) {
-  // TODO: implement step
+Given('that I make the choice to {string}', async function (choice) {
+  let choiceElement = await getMenuChoiceElement(this, choice);
+  await choiceElement.click();
 });
 
-Then('my position should be {string}', async function (a) {
-  // TODO: implement step
+Then('my position should be {string}', async function (expectedPosition) {
+  expect(await getWhereIAm(this)).to.equal(expectedPosition);
 });
 
 Given('that I know my current health', async function () {
-  // TODO: implement step
+  let healthElement = await this.get('.health .progress');
+  let currentHealth = +(await healthElement.getText());
+  console.log(`Current health: ${currentHealth}`);
 });
 
-When('I wait for the event {string} to take place', async function (a) {
-  // TODO: implement step
+When('I wait for the event {string} to take place', async function (event) {
+  let isEventDescriptionCorrect = await checkIfDescriptionContainsString(event);
+  expect(isEventDescriptionCorrect).to.be.true;
 });
 
-Then('my health should be {string}', async function (a) {
-  // TODO: implement step
+Then('my health should be {string}', async function (expectedHealth) {
+  let healthElement = await this.get('.health .progress');
+  let currentHealth = +(await healthElement.getText());
+  expect(currentHealth).to.equal(expectedHealth);
 });
 
 Given('that I know my current menu choices', async function () {
-  // TODO: implement step
+  let menuChoices = await getAllCurrentMenuChoices();
+  this.currentMenuChoices = menuChoices;
 });
 
-Then('I should be given the new choice {string}', async function (a) {
-  // TODO: implement step
+Then('I should be given the new choice {string}', async function (newChoice) {
+  let choiceElement = await getMenuChoiceElement(this, newChoice);
+  await choiceElement.click();
 });
