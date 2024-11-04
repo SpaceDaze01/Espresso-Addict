@@ -1,5 +1,66 @@
 [
   {
+    "description": "    As a user I should be able to play in full screen mode.",
+    "elements": [
+      {
+        "description": "",
+        "id": "full-screen-mode;full-screen-mode",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Full screen mode",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "that the user is on the game page \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234023298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks on the \"Full screen\" icon",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182764899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should be able to play in full screen mode \"true\"",
+            "match": {
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30074700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "full-screen-mode",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Full screen mode",
+    "tags": [],
+    "uri": "tests\\features\\Full_screen_mode.feature"
+  },
+  {
     "description": "  As a user I want to win the game by obtaining 5 cups of espresso (based on my empirical knowledge about how to win the game).",
     "elements": [
       {
@@ -19,7 +80,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 419225600
+              "duration": 339803699
             }
           },
           {
@@ -32,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60865698
+              "duration": 31299999
             }
           },
           {
@@ -45,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51917199
+              "duration": 45217500
             }
           },
           {
@@ -58,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56345299
+              "duration": 45889700
             }
           },
           {
@@ -71,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30401299
+              "duration": 46234299
             }
           },
           {
@@ -84,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31314999
+              "duration": 25612699
             }
           }
         ],
@@ -108,7 +169,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31039500
+              "duration": 19680400
             }
           },
           {
@@ -121,7 +182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 123407599
+              "duration": 91446200
             }
           },
           {
@@ -134,7 +195,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 91267299
+              "duration": 76690698
             }
           },
           {
@@ -147,7 +208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28144498
+              "duration": 32811399
             }
           },
           {
@@ -160,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30030700
+              "duration": 40789599
             }
           },
           {
@@ -173,7 +234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29948200
+              "duration": 34559099
             }
           },
           {
@@ -186,7 +247,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45835500
+              "duration": 30291698
             }
           },
           {
@@ -199,7 +260,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 373326398
+              "duration": 397080298
             }
           }
         ],
@@ -223,7 +284,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15581999
+              "duration": 14679199
             }
           },
           {
@@ -236,7 +297,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15124598
+              "duration": 15867599
             }
           },
           {
@@ -249,7 +310,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 249727998
+              "duration": 171153499
             }
           },
           {
@@ -262,7 +323,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31226298
+              "duration": 43982298
             }
           },
           {
@@ -275,7 +336,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 61023000
+              "duration": 30169698
             }
           },
           {
@@ -288,7 +349,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17851399
+              "duration": 30375698
             }
           },
           {
@@ -301,7 +362,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26410700
+              "duration": 16248500
             }
           }
         ],
@@ -325,7 +386,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 59764700
+              "duration": 30373998
             }
           },
           {
@@ -338,7 +399,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31000499
+              "duration": 30777000
             }
           },
           {
@@ -351,7 +412,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 121905699
+              "duration": 76091799
             }
           },
           {
@@ -364,7 +425,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92903598
+              "duration": 92131499
             }
           },
           {
@@ -377,7 +438,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93515998
+              "duration": 93611199
             }
           },
           {
@@ -390,7 +451,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 86874198
+              "duration": 77229798
             }
           },
           {
@@ -403,7 +464,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36410398
+              "duration": 30626000
             }
           },
           {
@@ -416,7 +477,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30710699
+              "duration": 30976600
             }
           },
           {
@@ -429,7 +490,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30470699
+              "duration": 30375700
             }
           },
           {
@@ -442,7 +503,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29695198
+              "duration": 30245199
             }
           },
           {
@@ -455,7 +516,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 354155399
+              "duration": 308534400
             }
           }
         ],
@@ -479,7 +540,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30866699
+              "duration": 15394799
             }
           },
           {
@@ -492,7 +553,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30465499
+              "duration": 15079800
             }
           },
           {
@@ -501,11 +562,11 @@
             "line": 47,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:97"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:95"
             },
             "result": {
               "status": "passed",
-              "duration": 45764100
+              "duration": 46366398
             }
           },
           {
@@ -518,7 +579,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 387886199
+              "duration": 275562300
             }
           },
           {
@@ -531,7 +592,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30475298
+              "duration": 31334199
             }
           },
           {
@@ -544,7 +605,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30753700
+              "duration": 31195699
             }
           },
           {
@@ -557,7 +618,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31194698
+              "duration": 30208699
             }
           },
           {
@@ -570,7 +631,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30277399
+              "duration": 30639099
             }
           },
           {
@@ -579,11 +640,11 @@
             "line": 53,
             "name": "I should be given the new choice \"Jam with the band\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:102"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:100"
             },
             "result": {
               "status": "passed",
-              "duration": 77647699
+              "duration": 77193700
             }
           }
         ],
@@ -607,7 +668,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31091998
+              "duration": 15009100
             }
           },
           {
@@ -620,7 +681,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28540300
+              "duration": 14018700
             }
           },
           {
@@ -633,7 +694,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31112799
+              "duration": 31918599
             }
           },
           {
@@ -646,7 +707,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30383899
+              "duration": 30196399
             }
           },
           {
@@ -659,7 +720,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31130099
+              "duration": 30044199
             }
           },
           {
@@ -672,7 +733,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30787300
+              "duration": 30053700
             }
           }
         ],
@@ -696,7 +757,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29041199
+              "duration": 30748199
             }
           },
           {
@@ -709,7 +770,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29919499
+              "duration": 31005900
             }
           },
           {
@@ -722,7 +783,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 78743000
+              "duration": 76787998
             }
           },
           {
@@ -735,7 +796,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 76156700
+              "duration": 76309899
             }
           },
           {
@@ -748,7 +809,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93406900
+              "duration": 92681499
             }
           },
           {
@@ -761,7 +822,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30594599
+              "duration": 30223198
             }
           },
           {
@@ -774,7 +835,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29871599
+              "duration": 30926199
             }
           },
           {
@@ -787,7 +848,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31128199
+              "duration": 48017098
             }
           },
           {
@@ -800,7 +861,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31253498
+              "duration": 31149899
             }
           },
           {
@@ -813,7 +874,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 200236798
+              "duration": 217620499
             }
           }
         ],
@@ -837,7 +898,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14825499
+              "duration": 15218800
             }
           },
           {
@@ -850,7 +911,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31206600
+              "duration": 29946200
             }
           },
           {
@@ -859,11 +920,11 @@
             "line": 78,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:97"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:95"
             },
             "result": {
               "status": "passed",
-              "duration": 46506899
+              "duration": 45405799
             }
           },
           {
@@ -876,7 +937,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 372096500
+              "duration": 257320099
             }
           },
           {
@@ -889,7 +950,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31331599
+              "duration": 17783700
             }
           },
           {
@@ -902,7 +963,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30177398
+              "duration": 19461198
             }
           },
           {
@@ -915,7 +976,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30945100
+              "duration": 30766899
             }
           },
           {
@@ -928,7 +989,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30934499
+              "duration": 30489298
             }
           }
         ],
@@ -952,7 +1013,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29569299
+              "duration": 30035400
             }
           },
           {
@@ -965,7 +1026,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29695499
+              "duration": 29421599
             }
           },
           {
@@ -974,11 +1035,11 @@
             "line": 88,
             "name": "I should be given the new choice \"Give beer to barista\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:102"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:100"
             },
             "result": {
               "status": "passed",
-              "duration": 92088199
+              "duration": 92274699
             }
           },
           {
@@ -991,7 +1052,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31188899
+              "duration": 31063399
             }
           },
           {
@@ -1004,7 +1065,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29577899
+              "duration": 30222299
             }
           },
           {
@@ -1017,7 +1078,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29904500
+              "duration": 30293798
             }
           },
           {
@@ -1030,7 +1091,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30615099
+              "duration": 31119799
             }
           }
         ],
@@ -1054,7 +1115,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30196599
+              "duration": 15514699
             }
           },
           {
@@ -1067,7 +1128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30056800
+              "duration": 29771099
             }
           },
           {
@@ -1080,7 +1141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92700199
+              "duration": 93210100
             }
           },
           {
@@ -1093,7 +1154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30694899
+              "duration": 30922099
             }
           },
           {
@@ -1106,7 +1167,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30240799
+              "duration": 45184799
             }
           },
           {
@@ -1119,7 +1180,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18394498
+              "duration": 31107599
             }
           },
           {
@@ -1132,7 +1193,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27775799
+              "duration": 44022999
             }
           }
         ],
@@ -1156,7 +1217,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31506100
+              "duration": 15265400
             }
           },
           {
@@ -1169,7 +1230,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30787698
+              "duration": 31333699
             }
           },
           {
@@ -1182,7 +1243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72367398
+              "duration": 78328099
             }
           },
           {
@@ -1195,7 +1256,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19833900
+              "duration": 44465300
             }
           },
           {
@@ -1208,7 +1269,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30051500
+              "duration": 31186799
             }
           },
           {
@@ -1221,7 +1282,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30370999
+              "duration": 30014899
             }
           },
           {
@@ -1234,7 +1295,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31397899
+              "duration": 31870298
             }
           }
         ],
@@ -1258,7 +1319,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29869498
+              "duration": 30485599
             }
           },
           {
@@ -1271,7 +1332,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29586299
+              "duration": 30899499
             }
           },
           {
@@ -1280,11 +1341,11 @@
             "line": 115,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:97"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:95"
             },
             "result": {
               "status": "passed",
-              "duration": 46005998
+              "duration": 46137198
             }
           },
           {
@@ -1297,7 +1358,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 77533600
+              "duration": 77431998
             }
           },
           {
@@ -1310,7 +1371,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30255600
+              "duration": 30485399
             }
           },
           {
@@ -1323,7 +1384,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31018899
+              "duration": 30753999
             }
           },
           {
@@ -1336,7 +1397,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31153300
+              "duration": 30962598
             }
           },
           {
@@ -1349,7 +1410,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29780398
+              "duration": 29630099
             }
           },
           {
@@ -1358,11 +1419,11 @@
             "line": 121,
             "name": "I should be given the new choice \"Play again\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:102"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:100"
             },
             "result": {
               "status": "passed",
-              "duration": 138682500
+              "duration": 123100500
             }
           }
         ],
