@@ -23,7 +23,7 @@ Then('the user should be able to play in full screen mode {string}', async funct
   }, 5000); // Adjust timeout as necessary
 
   // Check if the user is in fullscreen mode
-  const isFullscreen = await this.driver.executeScript('return document.fullscreenElement !== null;');
+  let isFullscreen = await this.driver.executeScript('return document.fullscreenElement !== null;');
   expect(isFullscreen).to.equal(screenBig === 'true');
  
 });
