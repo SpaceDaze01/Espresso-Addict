@@ -44,7 +44,7 @@ Given('that I make the choice to {string}', async function (choice) {
 });
 
 Then('my position should be {string}', async function (expectedPosition) {
-  expect(await getWhereIAm(this)).to.equal(expectedPosition);
+  expect(await navigateTo(this)).to.equal(expectedPosition);
 });
 
 Given('that I know my current health', async function () {

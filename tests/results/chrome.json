@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 536455699
+              "duration": 667850700
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 109454600
+              "duration": 125083300
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 136849900
+              "duration": 199850998
             }
           }
         ],
@@ -80,7 +80,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 77483798
+              "duration": 122501299
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 170178600
+              "duration": 245129499
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30109798
+              "duration": 29678999
             }
           }
         ],
@@ -141,7 +141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 118539100
+              "duration": 120168299
             }
           },
           {
@@ -154,7 +154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14778600
+              "duration": 29137999
             }
           },
           {
@@ -167,7 +167,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 1507099,
+              "duration": 13508900,
               "error_message": "Error: function uses multiple asynchronous interfaces: callback and promise\nto use the callback interface: do not return a promise\nto use the promise interface: remove the last argument to the function\n    at Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:35:24)\n    at C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:114\n    at AsyncLocalStorage.run (node:async_hooks:346:14)\n    at runInTestCaseScope (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\scope\\test_case_scope.js:8:26)\n    at Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:63)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           }
@@ -202,9 +202,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Help_btn.js:6"
             },
             "result": {
-              "status": "failed",
-              "duration": 89161299,
-              "error_message": "StaleElementReferenceError: stale element reference: stale element not found\n  (Session info: chrome=130.0.6723.92)\n    at Object.throwDecodedError (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\http.js:514:13)\n    at Executor.execute (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\http.js:446:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async thenableWebDriverProxy.execute (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:744:17)\n    at async CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/Health_status.js:23:31)"
+              "status": "passed",
+              "duration": 92752198
             }
           },
           {
@@ -261,8 +260,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Money_status.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 82561099
+              "status": "failed",
+              "duration": 5243800,
+              "error_message": "StaleElementReferenceError: stale element reference: stale element not found\n  (Session info: chrome=130.0.6723.92)\n    at Object.throwDecodedError (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\http.js:514:13)\n    at Executor.execute (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\http.js:446:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async thenableWebDriverProxy.execute (C:\\Espresso-Addict\\node_modules\\selenium-webdriver\\lib\\webdriver.js:744:17)\n    at async CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/Health_status.js:23:31)"
             }
           },
           {
@@ -274,8 +274,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Enter_the_cafe_btn.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 15225498
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -287,8 +287,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Money_status.js:20"
             },
             "result": {
-              "status": "passed",
-              "duration": 15206500
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -300,9 +300,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Money_status.js:30"
             },
             "result": {
-              "status": "failed",
-              "duration": 55906998,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -10\n    +5\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/Money_status.js:37:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -337,7 +336,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 61176499
+              "duration": 166663299
             }
           },
           {
@@ -395,7 +394,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 88621299
+              "duration": 81765999
             }
           },
           {
@@ -408,7 +407,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14278300
+              "duration": 6546698
             }
           },
           {
@@ -421,7 +420,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15093299
+              "duration": 14124300
             }
           },
           {
@@ -434,7 +433,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15395699
+              "duration": 13861398
             }
           }
         ],
@@ -469,7 +468,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 76500198
+              "duration": 122832999
             }
           },
           {
@@ -482,7 +481,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14990699
+              "duration": 20437999
             }
           },
           {
@@ -495,7 +494,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14215898
+              "duration": 8266899
             }
           }
         ],
@@ -530,7 +529,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 307802700
+              "duration": 356886299
             }
           },
           {
@@ -543,7 +542,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15257000
+              "duration": 28085299
             }
           },
           {
@@ -556,7 +555,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30716999
+              "duration": 29556499
             }
           },
           {
@@ -569,7 +568,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30768899
+              "duration": 30126999
             }
           },
           {
@@ -582,7 +581,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31258899
+              "duration": 31742198
             }
           },
           {
@@ -595,7 +594,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31294598
+              "duration": 30239399
             }
           }
         ],
@@ -619,7 +618,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15426999
+              "duration": 29585300
             }
           },
           {
@@ -631,8 +630,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 16258898
+              "status": "failed",
+              "duration": 29715600,
+              "error_message": "TypeError: world.getText is not a function\n    at getAllCurrentMenuChoices (file:///C:/Espresso-Addict/tests/features/step-definitions/helpers.js:88:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getMenuChoiceElement (file:///C:/Espresso-Addict/tests/features/step-definitions/helpers.js:95:37)\n    at async CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:42:23)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44"
             }
           },
           {
@@ -644,8 +644,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 13289799
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -657,8 +657,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 57720899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -670,8 +670,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 31704698
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -683,8 +683,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 30753199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -696,8 +696,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
-              "status": "passed",
-              "duration": 30694598
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -706,11 +706,11 @@
             "line": 20,
             "name": "my position should be \"in a crowded bar\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:45"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:46"
             },
             "result": {
-              "status": "passed",
-              "duration": 15057298
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -733,8 +733,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 14787800
+              "status": "failed",
+              "duration": 26567999,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +in a crowded bar\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -743,11 +744,11 @@
             "line": 24,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 15043099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -756,11 +757,11 @@
             "line": 25,
             "name": "I wait for the event \"The bartender offers you a can of beer for free\" to take place",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:56"
             },
             "result": {
-              "status": "passed",
-              "duration": 515899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -769,11 +770,11 @@
             "line": 26,
             "name": "my health should be \"less or same as before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 13767098
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -785,8 +786,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 20550098
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -798,8 +799,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 25925398
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -811,9 +812,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
-              "status": "failed",
-              "duration": 30488500,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -nothing cool\n    +a can of beer\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:34:25)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -836,8 +836,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 14724599
+              "status": "failed",
+              "duration": 27813599,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +in a crowded bar\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -846,11 +847,11 @@
             "line": 33,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 14707400
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -862,8 +863,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15160800
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -875,8 +876,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15731700
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -888,8 +889,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15141100
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -901,8 +902,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15177299
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -911,11 +912,11 @@
             "line": 38,
             "name": "my health should be \"unchanged\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 14872698
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -927,8 +928,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 31431900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -940,8 +941,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 31762100
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -953,9 +954,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
-              "status": "failed",
-              "duration": 31271000,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -nothing cool\n    +a can of beer\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:34:25)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -964,7 +964,7 @@
             "line": 42,
             "name": "my position should be \"at the concert\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:45"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:46"
             },
             "result": {
               "status": "skipped",
@@ -991,8 +991,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 14688200
+              "status": "failed",
+              "duration": 29199499,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +at the concert\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -1001,11 +1002,11 @@
             "line": 46,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 558199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1014,11 +1015,11 @@
             "line": 47,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 13478599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1027,11 +1028,11 @@
             "line": 48,
             "name": "I wait for the event \"why don't come on up and jam with us?\" to take place",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:56"
             },
             "result": {
-              "status": "passed",
-              "duration": 14888498
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1040,11 +1041,11 @@
             "line": 49,
             "name": "my health should be \"less or same as before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 14933800
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1056,8 +1057,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 30263198
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1069,8 +1070,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 31466800
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1082,9 +1083,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
-              "status": "failed",
-              "duration": 14651399,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -nothing cool\n    +a can of beer\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:34:25)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1093,7 +1093,7 @@
             "line": 53,
             "name": "I should be given the new choice \"Jam with the band\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:65"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:72"
             },
             "result": {
               "status": "skipped",
@@ -1120,8 +1120,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 14459099
+              "status": "failed",
+              "duration": 13781299,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +at the concert\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -1130,11 +1131,11 @@
             "line": 57,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 14869299
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1146,8 +1147,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15951799
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1156,11 +1157,11 @@
             "line": 59,
             "name": "my health should be \"unchanged\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 14841300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1172,9 +1173,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 44489599,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -10\n    +15\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:25:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1223,8 +1223,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 14715598
+              "status": "failed",
+              "duration": 29567500,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +at the concert\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -1233,11 +1234,11 @@
             "line": 66,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 15790600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1249,8 +1250,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 14619398
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1262,8 +1263,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15969798
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1275,8 +1276,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15147700
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1285,11 +1286,11 @@
             "line": 70,
             "name": "my health should be \"unchanged\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 15200600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1301,9 +1302,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 30783098,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -10\n    +15\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:25:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1338,7 +1338,7 @@
             "line": 74,
             "name": "my position should be \"inside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:45"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:46"
             },
             "result": {
               "status": "skipped",
@@ -1365,8 +1365,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 14225300
+              "status": "failed",
+              "duration": 28844499,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +inside the cafe\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -1375,11 +1376,11 @@
             "line": 78,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 14810898
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1388,11 +1389,11 @@
             "line": 79,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 15290399
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1401,11 +1402,11 @@
             "line": 80,
             "name": "I wait for the event \"The barista is in a dark corner phoning a friend\" to take place",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:56"
             },
             "result": {
-              "status": "passed",
-              "duration": 14974600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1414,11 +1415,11 @@
             "line": 81,
             "name": "my health should be \"less or same as before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 15189899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1430,9 +1431,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 30003299,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -10\n    +15\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:25:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1467,7 +1467,7 @@
             "line": 85,
             "name": "I should be given the new choice \"Give beer to barista\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:65"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:72"
             },
             "result": {
               "status": "skipped",
@@ -1494,8 +1494,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 14110000
+              "status": "failed",
+              "duration": 28269499,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +inside the cafe\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -1504,11 +1505,11 @@
             "line": 89,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 14779899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1520,8 +1521,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15767998
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1530,11 +1531,11 @@
             "line": 91,
             "name": "my health should be \"20 more than before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 15177799
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1546,9 +1547,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 29278999,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -10\n    +15\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:25:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1597,8 +1597,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 14168298
+              "status": "failed",
+              "duration": 29835998,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +inside the cafe\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -1607,11 +1608,11 @@
             "line": 98,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 15576099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1623,8 +1624,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15523900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1633,11 +1634,11 @@
             "line": 100,
             "name": "my health should be \"10 more than before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 15032300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1649,8 +1650,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 30678400
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1662,9 +1663,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 29955599,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -0\n    +3\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:25:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1700,8 +1700,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 15014999
+              "status": "failed",
+              "duration": 29378599,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +inside the cafe\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -1710,11 +1711,11 @@
             "line": 107,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 14829899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1726,8 +1727,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 14828699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1736,11 +1737,11 @@
             "line": 109,
             "name": "my health should be \"10 more than before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 15199300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1752,9 +1753,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 30125999,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -10\n    +5\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:25:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1803,8 +1803,9 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 13477698
+              "status": "failed",
+              "duration": 32744700,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -outside the cafe\n    +inside the cafe\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:38:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -1813,11 +1814,11 @@
             "line": 116,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:49"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:50"
             },
             "result": {
-              "status": "passed",
-              "duration": 15118099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1826,11 +1827,11 @@
             "line": 117,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 15360599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1842,8 +1843,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 15224199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1852,11 +1853,11 @@
             "line": 119,
             "name": "my health should be \"10 more than before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:57"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:61"
             },
             "result": {
-              "status": "passed",
-              "duration": 15002299
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1868,9 +1869,8 @@
               "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 30520598,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -10\n    +0\n\n    at CustomWorld.<anonymous> (file:///C:/Espresso-Addict/tests/features/step-definitions/win_the_game.js:25:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Espresso-Addict\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -1905,7 +1905,7 @@
             "line": 123,
             "name": "I should be given the new choice \"Play again\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:65"
+              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:72"
             },
             "result": {
               "status": "skipped",
