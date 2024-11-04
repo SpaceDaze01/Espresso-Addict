@@ -1,6 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from 'chai';
-import { navigateTo, getWhereIAm, getMenuChoiceElement, checkIfDescriptionContainsString, getAllCurrentMenuChoices } from './helpers.js'
+import { navigateTo, getWhereIAm, getMenuChoiceElement, checkIfDescriptionContainsString, getAllCurrentMenuChoices, cheatIfNeeded } from './helpers.js'
 // import { By, until, Key } from 'selenium-webdriver';
 
 Given('that I have started the game by navigating to {string}', async function (url) {
@@ -58,8 +58,8 @@ Given('that I know my current health', async function () {
 });
 
 When('I wait for the event {string} to take place', async function (event) {
-  
-  let isEventDescriptionCorrect 
+
+  let isEventDescriptionCorrect
   while (!isEventDescriptionCorrect) {
     isEventDescriptionCorrect = await checkIfDescriptionContainsString(this, event, true);
     let choiceElement = await getMenuChoiceElement(this, 'Wait');
@@ -69,23 +69,27 @@ When('I wait for the event {string} to take place', async function (event) {
 });
 
 Then('my health should be {string}', async function (expectedHealth) {
-  
+
   let healthElement = await this.get('.health .progress');
   let currentHealth = +(await healthElement.getText());
   console.log({ expectedHealth, currentHealth, thisCurrentHealth: this.currentHealth })
   if (expectedHealth === 'less or same as before') {
+    await cheatIfNeeded(this);
     expect(currentHealth).to.be.most(this.currentHealth);
-    return 
+    return
   }
   if (expectedHealth === 'unchanged') {
+    await cheatIfNeeded(this);
     expect(currentHealth).to.equal(this.currentHealth);
-    return 
+    return
   }
   if (expectedHealth === '20 more than before') {
+    await cheatIfNeeded(this);
     expect(currentHealth).to.equal(this.currentHealth + 20);
     return
   }
   if (expectedHealth === '10 more than before') {
+    await cheatIfNeeded(this);
     expect(currentHealth).to.equal(this.currentHealth + 10);
     return
   }

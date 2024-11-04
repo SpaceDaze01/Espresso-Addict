@@ -15,11 +15,11 @@
             "line": 7,
             "name": "that the user is on the game page \"http://localhost:3000\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:6"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 234023298
+              "duration": 2164760699
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 8,
             "name": "the user clicks on the \"Full screen\" icon",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:10"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 182764899
+              "duration": 710702800
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 9,
             "name": "the user should be able to play in full screen mode \"true\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:19"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\Full_screen_mode.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 30074700
+              "duration": 241499699
             }
           }
         ],
@@ -76,11 +76,11 @@
             "line": 5,
             "name": "that I have started the game by navigating to \"http://localhost:3000\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:6"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 339803699
+              "duration": 1412791998
             }
           },
           {
@@ -89,11 +89,11 @@
             "line": 6,
             "name": "that my position is \"outside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 31299999
+              "duration": 180591099
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 7,
             "name": "the value of my \"Health\" should be 50",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 45217500
+              "duration": 101740998
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 8,
             "name": "the value of my \"Money\" should be 10",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 45889700
+              "duration": 117834098
             }
           },
           {
@@ -128,11 +128,11 @@
             "line": 9,
             "name": "the value of my \"Espressos\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 46234299
+              "duration": 114273700
             }
           },
           {
@@ -141,11 +141,11 @@
             "line": 10,
             "name": "my hipster bag should contain \"nothing cool\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 25612699
+              "duration": 148477699
             }
           }
         ],
@@ -165,11 +165,11 @@
             "line": 13,
             "name": "that my position is \"outside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 19680400
+              "duration": 240077400
             }
           },
           {
@@ -178,11 +178,11 @@
             "line": 14,
             "name": "that I make the choice to \"Go north\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 91446200
+              "duration": 606603500
             }
           },
           {
@@ -191,11 +191,11 @@
             "line": 15,
             "name": "that I make the choice to \"Go east\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 76690698
+              "duration": 656485798
             }
           },
           {
@@ -204,11 +204,11 @@
             "line": 16,
             "name": "the value of my \"Health\" should be 50",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 32811399
+              "duration": 301332000
             }
           },
           {
@@ -217,11 +217,11 @@
             "line": 17,
             "name": "the value of my \"Money\" should be 10",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 40789599
+              "duration": 132820898
             }
           },
           {
@@ -230,11 +230,11 @@
             "line": 18,
             "name": "the value of my \"Espressos\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 34559099
+              "duration": 112231098
             }
           },
           {
@@ -243,11 +243,11 @@
             "line": 19,
             "name": "my hipster bag should contain \"nothing cool\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 30291698
+              "duration": 161861998
             }
           },
           {
@@ -256,11 +256,11 @@
             "line": 20,
             "name": "my position should be \"in a crowded bar\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:48"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 397080298
+              "duration": 1737716999
             }
           }
         ],
@@ -280,11 +280,11 @@
             "line": 23,
             "name": "that my position is \"in a crowded bar\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 14679199
+              "duration": 70010799
             }
           },
           {
@@ -293,11 +293,11 @@
             "line": 24,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 15867599
+              "duration": 72402700
             }
           },
           {
@@ -306,11 +306,11 @@
             "line": 25,
             "name": "I wait for the event \"The bartender offers you a can of beer for free\" to take place",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:60"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 171153499
+              "duration": 844576199
             }
           },
           {
@@ -319,11 +319,11 @@
             "line": 26,
             "name": "my health should be \"less or same as before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 43982298
+              "duration": 129173100
             }
           },
           {
@@ -332,11 +332,11 @@
             "line": 27,
             "name": "the value of my \"Money\" should be 10",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30169698
+              "duration": 124105700
             }
           },
           {
@@ -345,11 +345,11 @@
             "line": 28,
             "name": "the value of my \"Espressos\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30375698
+              "duration": 138339400
             }
           },
           {
@@ -358,11 +358,11 @@
             "line": 29,
             "name": "my hipster bag should contain \"a can of beer\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 16248500
+              "duration": 104237098
             }
           }
         ],
@@ -382,11 +382,11 @@
             "line": 32,
             "name": "that my position is \"in a crowded bar\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 30373998
+              "duration": 73155598
             }
           },
           {
@@ -395,11 +395,11 @@
             "line": 33,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 30777000
+              "duration": 124541699
             }
           },
           {
@@ -408,11 +408,11 @@
             "line": 34,
             "name": "that I make the choice to \"Go west\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 76091799
+              "duration": 771818799
             }
           },
           {
@@ -421,11 +421,11 @@
             "line": 35,
             "name": "that I make the choice to \"Go south\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 92131499
+              "duration": 711290200
             }
           },
           {
@@ -434,11 +434,11 @@
             "line": 36,
             "name": "that I make the choice to \"Go south\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 93611199
+              "duration": 461158198
             }
           },
           {
@@ -447,11 +447,11 @@
             "line": 37,
             "name": "that I make the choice to \"Go west\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 77229798
+              "duration": 484071098
             }
           },
           {
@@ -460,11 +460,11 @@
             "line": 38,
             "name": "my health should be \"unchanged\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 30626000
+              "duration": 257502300
             }
           },
           {
@@ -473,11 +473,11 @@
             "line": 39,
             "name": "the value of my \"Money\" should be 10",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30976600
+              "duration": 294192099
             }
           },
           {
@@ -486,11 +486,11 @@
             "line": 40,
             "name": "the value of my \"Espressos\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30375700
+              "duration": 201066699
             }
           },
           {
@@ -499,11 +499,11 @@
             "line": 41,
             "name": "my hipster bag should contain \"a can of beer\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 30245199
+              "duration": 639057298
             }
           },
           {
@@ -512,11 +512,11 @@
             "line": 42,
             "name": "my position should be \"at the concert\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:48"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 308534400
+              "duration": 3404085498
             }
           }
         ],
@@ -536,11 +536,11 @@
             "line": 45,
             "name": "that my position is \"at the concert\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 15394799
+              "duration": 174076699
             }
           },
           {
@@ -549,11 +549,11 @@
             "line": 46,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 15079800
+              "duration": 304651599
             }
           },
           {
@@ -562,11 +562,11 @@
             "line": 47,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:95"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:99"
             },
             "result": {
               "status": "passed",
-              "duration": 46366398
+              "duration": 278811199
             }
           },
           {
@@ -575,11 +575,11 @@
             "line": 48,
             "name": "I wait for the event \"why don't come on up and jam with us?\" to take place",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:60"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 275562300
+              "duration": 1184555100
             }
           },
           {
@@ -588,11 +588,11 @@
             "line": 49,
             "name": "my health should be \"less or same as before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 31334199
+              "duration": 149982499
             }
           },
           {
@@ -601,11 +601,11 @@
             "line": 50,
             "name": "the value of my \"Money\" should be 10",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 31195699
+              "duration": 105487098
             }
           },
           {
@@ -614,11 +614,11 @@
             "line": 51,
             "name": "the value of my \"Espressos\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30208699
+              "duration": 446372099
             }
           },
           {
@@ -627,11 +627,11 @@
             "line": 52,
             "name": "my hipster bag should contain \"a can of beer\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 30639099
+              "duration": 700935699
             }
           },
           {
@@ -640,11 +640,11 @@
             "line": 53,
             "name": "I should be given the new choice \"Jam with the band\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:100"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:104"
             },
             "result": {
               "status": "passed",
-              "duration": 77193700
+              "duration": 796743899
             }
           }
         ],
@@ -664,11 +664,11 @@
             "line": 56,
             "name": "that my position is \"at the concert\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 15009100
+              "duration": 258557299
             }
           },
           {
@@ -677,11 +677,11 @@
             "line": 57,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 14018700
+              "duration": 82129898
             }
           },
           {
@@ -690,11 +690,11 @@
             "line": 58,
             "name": "my health should be \"unchanged\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 31918599
+              "duration": 130889699
             }
           },
           {
@@ -703,11 +703,11 @@
             "line": 59,
             "name": "the value of my \"Money\" should be 15",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30196399
+              "duration": 148270999
             }
           },
           {
@@ -716,11 +716,11 @@
             "line": 60,
             "name": "the value of my \"Espressos\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30044199
+              "duration": 95232999
             }
           },
           {
@@ -729,11 +729,11 @@
             "line": 61,
             "name": "my hipster bag should contain \"a can of beer\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 30053700
+              "duration": 90917000
             }
           }
         ],
@@ -753,11 +753,11 @@
             "line": 64,
             "name": "that my position is \"at the concert\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 30748199
+              "duration": 134966199
             }
           },
           {
@@ -766,11 +766,11 @@
             "line": 65,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 31005900
+              "duration": 115513099
             }
           },
           {
@@ -779,11 +779,11 @@
             "line": 66,
             "name": "that I make the choice to \"Go east\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 76787998
+              "duration": 378803498
             }
           },
           {
@@ -792,11 +792,11 @@
             "line": 67,
             "name": "that I make the choice to \"Go north\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 76309899
+              "duration": 602088899
             }
           },
           {
@@ -805,11 +805,11 @@
             "line": 68,
             "name": "that I make the choice to \"Enter the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 92681499
+              "duration": 591642799
             }
           },
           {
@@ -818,11 +818,11 @@
             "line": 69,
             "name": "my health should be \"unchanged\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 30223198
+              "duration": 191492899
             }
           },
           {
@@ -831,11 +831,11 @@
             "line": 70,
             "name": "the value of my \"Money\" should be 15",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30926199
+              "duration": 260989000
             }
           },
           {
@@ -844,11 +844,11 @@
             "line": 71,
             "name": "the value of my \"Espressos\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 48017098
+              "duration": 118762998
             }
           },
           {
@@ -857,11 +857,11 @@
             "line": 72,
             "name": "my hipster bag should contain \"a can of beer\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 31149899
+              "duration": 91342999
             }
           },
           {
@@ -870,11 +870,11 @@
             "line": 73,
             "name": "my position should be \"inside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:48"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 217620499
+              "duration": 2129000899
             }
           }
         ],
@@ -894,11 +894,11 @@
             "line": 76,
             "name": "that my position is \"inside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 15218800
+              "duration": 87075899
             }
           },
           {
@@ -907,11 +907,11 @@
             "line": 77,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 29946200
+              "duration": 111063498
             }
           },
           {
@@ -920,11 +920,11 @@
             "line": 78,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:95"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:99"
             },
             "result": {
               "status": "passed",
-              "duration": 45405799
+              "duration": 289389399
             }
           },
           {
@@ -933,11 +933,11 @@
             "line": 79,
             "name": "I wait for the event \"The barista is in a dark corner phoning a friend\" to take place",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:60"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 257320099
+              "duration": 1441180400
             }
           },
           {
@@ -946,11 +946,11 @@
             "line": 80,
             "name": "my health should be \"less or same as before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 17783700
+              "duration": 169181299
             }
           },
           {
@@ -959,11 +959,11 @@
             "line": 81,
             "name": "the value of my \"Money\" should be 15",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 19461198
+              "duration": 117645500
             }
           },
           {
@@ -972,11 +972,11 @@
             "line": 82,
             "name": "the value of my \"Espressos\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30766899
+              "duration": 127074198
             }
           },
           {
@@ -985,11 +985,11 @@
             "line": 83,
             "name": "my hipster bag should contain \"a can of beer\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 30489298
+              "duration": 150233300
             }
           }
         ],
@@ -1009,11 +1009,11 @@
             "line": 86,
             "name": "that my position is \"inside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 30035400
+              "duration": 105265100
             }
           },
           {
@@ -1022,11 +1022,11 @@
             "line": 87,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 29421599
+              "duration": 182377899
             }
           },
           {
@@ -1035,11 +1035,11 @@
             "line": 88,
             "name": "I should be given the new choice \"Give beer to barista\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:100"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:104"
             },
             "result": {
               "status": "passed",
-              "duration": 92274699
+              "duration": 565186700
             }
           },
           {
@@ -1048,11 +1048,11 @@
             "line": 89,
             "name": "my health should be \"20 more than before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 31063399
+              "duration": 139688399
             }
           },
           {
@@ -1061,11 +1061,11 @@
             "line": 90,
             "name": "the value of my \"Money\" should be 15",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30222299
+              "duration": 206005299
             }
           },
           {
@@ -1074,11 +1074,11 @@
             "line": 91,
             "name": "the value of my \"Espressos\" should be 2",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30293798
+              "duration": 90871599
             }
           },
           {
@@ -1087,11 +1087,11 @@
             "line": 92,
             "name": "my hipster bag should contain \"nothing cool\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 31119799
+              "duration": 90991499
             }
           }
         ],
@@ -1111,11 +1111,11 @@
             "line": 95,
             "name": "that my position is \"inside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 15514699
+              "duration": 122024300
             }
           },
           {
@@ -1124,11 +1124,11 @@
             "line": 96,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 29771099
+              "duration": 134577599
             }
           },
           {
@@ -1137,11 +1137,11 @@
             "line": 97,
             "name": "that I make the choice to \"Buy an espresso\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 93210100
+              "duration": 461613498
             }
           },
           {
@@ -1150,11 +1150,11 @@
             "line": 98,
             "name": "my health should be \"10 more than before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 30922099
+              "duration": 201983200
             }
           },
           {
@@ -1163,11 +1163,11 @@
             "line": 99,
             "name": "the value of my \"Money\" should be 10",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 45184799
+              "duration": 122225398
             }
           },
           {
@@ -1176,11 +1176,11 @@
             "line": 100,
             "name": "the value of my \"Espressos\" should be 3",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 31107599
+              "duration": 120777199
             }
           },
           {
@@ -1189,11 +1189,11 @@
             "line": 101,
             "name": "my hipster bag should contain \"nothing cool\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 44022999
+              "duration": 92057099
             }
           }
         ],
@@ -1213,11 +1213,11 @@
             "line": 104,
             "name": "that my position is \"inside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 15265400
+              "duration": 76756400
             }
           },
           {
@@ -1226,11 +1226,11 @@
             "line": 105,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 31333699
+              "duration": 118943800
             }
           },
           {
@@ -1239,11 +1239,11 @@
             "line": 106,
             "name": "that I make the choice to \"Buy an espresso\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 78328099
+              "duration": 401964898
             }
           },
           {
@@ -1252,11 +1252,11 @@
             "line": 107,
             "name": "my health should be \"10 more than before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 44465300
+              "duration": 107459398
             }
           },
           {
@@ -1265,11 +1265,11 @@
             "line": 108,
             "name": "the value of my \"Money\" should be 5",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 31186799
+              "duration": 107117498
             }
           },
           {
@@ -1278,11 +1278,11 @@
             "line": 109,
             "name": "the value of my \"Espressos\" should be 4",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30014899
+              "duration": 90651398
             }
           },
           {
@@ -1291,11 +1291,11 @@
             "line": 110,
             "name": "my hipster bag should contain \"nothing cool\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 31870298
+              "duration": 100604900
             }
           }
         ],
@@ -1315,11 +1315,11 @@
             "line": 113,
             "name": "that my position is \"inside the cafe\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 30485599
+              "duration": 79013498
             }
           },
           {
@@ -1328,11 +1328,11 @@
             "line": 114,
             "name": "that I know my current health",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 30899499
+              "duration": 150685299
             }
           },
           {
@@ -1341,11 +1341,11 @@
             "line": 115,
             "name": "that I know my current menu choices",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:95"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:99"
             },
             "result": {
               "status": "passed",
-              "duration": 46137198
+              "duration": 242468100
             }
           },
           {
@@ -1354,11 +1354,11 @@
             "line": 116,
             "name": "that I make the choice to \"Buy an espresso\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 77431998
+              "duration": 582735999
             }
           },
           {
@@ -1367,11 +1367,11 @@
             "line": 117,
             "name": "my health should be \"10 more than before\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:71"
             },
             "result": {
               "status": "passed",
-              "duration": 30485399
+              "duration": 344882399
             }
           },
           {
@@ -1380,11 +1380,11 @@
             "line": 118,
             "name": "the value of my \"Money\" should be 0",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30753999
+              "duration": 172736798
             }
           },
           {
@@ -1393,11 +1393,11 @@
             "line": 119,
             "name": "the value of my \"Espressos\" should be 5",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 30962598
+              "duration": 105607898
             }
           },
           {
@@ -1406,11 +1406,11 @@
             "line": 120,
             "name": "my hipster bag should contain \"nothing cool\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 29630099
+              "duration": 124379099
             }
           },
           {
@@ -1419,11 +1419,11 @@
             "line": 121,
             "name": "I should be given the new choice \"Play again\"",
             "match": {
-              "location": "file:\\C:\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:100"
+              "location": "file:\\C:\\Users\\sorli\\Documents\\GitHub\\Espresso-Addict\\tests\\features\\step-definitions\\win_the_game.js:104"
             },
             "result": {
               "status": "passed",
-              "duration": 123100500
+              "duration": 1716433198
             }
           }
         ],
