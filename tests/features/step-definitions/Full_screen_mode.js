@@ -1,4 +1,4 @@
-
+//kommentera ut fullscreen mode om det inte funkar
 import { Given, When, Then } from '@cucumber/cucumber';
 import { By, until, Key } from 'selenium-webdriver';
 import { expect } from 'chai';
